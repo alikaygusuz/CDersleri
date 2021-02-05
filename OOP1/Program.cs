@@ -17,7 +17,7 @@ namespace OOP1
                 UnitInStock = 5, ProductName = "Kalem", UnitPrice = 35 };
 
             ProductManager productManager = new ProductManager();
-            productManager.Add();
+            productManager.Add(product1);
             
         }
     }
